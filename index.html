@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lectura Interactiva - Equipo</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f7fb;
+        color: #1f2937;
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+      h1 {
+        text-align: center;
+      }
+      .members {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0 2px 10px rgba(15, 23, 42, 0.08);
+      }
+      .role {
+        font-size: 0.9rem;
+        color: #2563eb;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0.4rem;
+      }
+      .name {
+        font-size: 1.05rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Página principal del proyecto</h1>
+      <section class="members" aria-label="Integrantes del equipo">
+        <article class="card">
+          <p class="role">Líder</p>
+          <p class="name">Miembro 1</p>
+        </article>
+        <article class="card">
+          <p class="role">Miembro</p>
+          <p class="name">Miembro 2</p>
+        </article>
+        <article class="card">
+          <p class="role">Miembro</p>
+          <p class="name">Miembro 3</p>
+        </article>
+        <article class="card">
+          <p class="role">Miembro</p>
+          <p class="name">Miembro 4</p>
+        </article>
+        <article class="card">
+          <p class="role">Miembro</p>
+          <p class="name">Miembro 5</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
